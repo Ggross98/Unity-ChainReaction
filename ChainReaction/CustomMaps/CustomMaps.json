@@ -1,0 +1,101 @@
+{
+	"maps":[
+		{	
+			"name": "Relay Race",
+			"width": 5, "height": 3, 
+			"steps": 2,
+			"atoms": [
+				{
+					"x": 0, "y": 1,
+					"neutrons": ["24"]
+				},
+				{
+					"x": 3, "y": 0,
+					"neutrons": ["1","4"]
+				},
+				{
+					"x": 3, "y": 2,
+					"neutrons": ["5","2"]
+				},
+				{
+					"x": 3, "y": 1, "type":2
+				},
+
+				{
+					"x": 1, "y": 0, "type":1,
+					"neutrons": ["24"]
+				},
+				{
+					"x": 1, "y": 1, "type":1,
+					"neutrons": ["24"]
+				},
+				{
+					"x": 1, "y": 2, "type":1,
+					"neutrons": ["24"]
+				},
+				{
+					"x": 2, "y": 0, "type":1,
+					"neutrons": ["24"]
+				},
+				{
+					"x": 2, "y": 3, "type":1,
+					"neutrons": ["24"]
+				}
+
+			]
+		},
+		{	
+			"name": "One Stroke",
+			"width": 5, "height": 5, 
+			"steps": 1,
+			"atoms": [
+				{
+					"x": 4, "y": 0, "type":1,
+					"neutrons": ["1"]
+				},
+				{
+					"x": 4, "y": 2, "type":1,
+					"neutrons": ["2"]
+				},
+				{
+					"x": 0, "y": 3,
+					"neutrons": ["2"]
+				},
+				{
+					"x": 1, "y": 4,
+					"neutrons": ["4"]
+				},
+				{
+					"x": 0, "y": 4, "type":1,
+					"neutrons": ["2", "1"]
+				},
+				{
+					"x": 2, "y": 2,
+					"neutrons": ["2","4"]
+				},
+				{
+					"x": 2, "y": 4,
+					"neutrons": ["4"]
+				},
+				{
+					"x": 3, "y": 0,
+					"neutrons": ["2"]
+				},
+				{
+					"x": 3, "y": 1,
+					"neutrons": ["1"]
+				},
+				{
+					"x": 1, "y": 1, "type":1,
+					"neutrons": ["5"]
+				},
+				{
+					"x": 2, "y": 3, "type":1,
+					"neutrons": ["4"]
+				}
+			]
+		}
+		
+
+	]
+}
